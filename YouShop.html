@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOUSHOP</title>
+    <link rel="stylesheet" href="style.css" />
+  
+       <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <span class="top-bar-item">
+          <i class="fas fa-phone"></i> (+800) 123 456 7890
+        </span>
+        <span class="top-bar-item">
+          <i class="fas fa-envelope"></i> manager@goodspage.com
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-bar-item">
+          <i class="fas fa-map-marker-alt"></i> Location store
+        </span>
+        <span class="top-bar-item"> <i class="fas fa-bars"></i> Blog </span>
+        <span class="top-bar-item">
+          <i class="fas fa-shield-alt"></i> Guarantee
+        </span>
+        <span class="top-bar-item">
+          <i class="fas fa-credit-card"></i> Payment
+        </span>
+        <span class="top-bar-item">
+          <i class="fas fa-truck"></i> Delivery
+        </span>
+        <span class="top-bar-item">
+          <i class="fas fa-user"></i> Register or Sign in
+        </span>
+      </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+  <div class="header-inner">
+    <div class="logo-section">
+      <div class="logo">
+        <span class="you">YOU</span><span class="shop">SHOP</span>
+      </div>
+      <div class="logo-description">
+        Description of your<br />
+        online store
+      </div>
+    </div>
+
+    <div class="search-section">
+      <input type="text" class="search-input" placeholder="Search" />
+      <button class="search-button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+
+    <div class="header-actions">
+      <div class="working-hours">
+        7 days a week from<br />8:00 am to 5:00 pm
+      </div>
+      <div class="wishlist">
+        <i class="far fa-heart"></i>
+        <span class="badge">13</span>
+      </div>
+      <div class="cart-info">
+        <div class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="badge">0</span>
+        </div>
+        <div class="cart-details">
+          <div class="cart-title">My cart</div>
+          <div class="cart-total">$ 0.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <!-- Navigation -->
+    <nav class="navigation">
+      <!-- Mobile Navigation Toggle -->
+      <button class="mobile-nav-toggle" onclick="document.getElementById('mobile-menu').checked = !document.getElementById('mobile-menu').checked">
+        <i class="fas fa-bars"></i> All Categories
+      </button>
+      
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link all-categories">
+            <i class="fas fa-bars"></i> All Categories
+          </a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Apple</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Samsung</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Meizu</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Xiaomi</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Honor</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Huawei</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Asus</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Nokia</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Motorola</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Caterpillar</a></li>
+      </ul>
+
+      <!-- Mobile Menu -->
+      <input type="checkbox" id="mobile-menu" class="mobile-menu-toggle">
+      <div class="mobile-nav-overlay" onclick="document.getElementById('mobile-menu').checked = false">
+        <div class="mobile-nav-content" onclick="event.stopPropagation()">
+          <div class="mobile-nav-header">
+            <h3>All Categories</h3>
+            <button class="mobile-nav-close" onclick="document.getElementById('mobile-menu').checked = false">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+             
+            </li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Apple</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Samsung</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Meizu</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Xiaomi</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Honor</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Huawei</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Asus</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Nokia</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Motorola</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Caterpillar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="#">Home</a> / <a href="#">Categories</a> /
+      <span>Tablet & Laptops Accessories</span>
+    </div>
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <h1>Tablet & Laptops Accessories</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <div class="sidebar-container">
+    <aside class="sidebar">
+        <!-- Sidebar -->
+        
+          <button class="sidebar-close">
+            <i class="fas fa-times"></i> Close Filters
+          </button>
+
+          <!-- Related Categories -->
+          <div class="filter-section">
+            <input
+              type="checkbox"
+              id="toggle-categories"
+              class="filter-toggle"
+              checked
+            />
+            <label for="toggle-categories" class="filter-header">
+              <i class="fas fa-chevron-down"></i>
+              <span>Related Categories</span>
+            </label>
+            <div class="filter-content">
+              <div class="filter-option">&lt; Categories</div>
+              <div
+                class="filter-option"
+                style="font-weight: 600; margin-left: 15px"
+              >
+                Tablet & Laptops Accessories
+              </div>
+            </div>
+          </div>
+
+          <!-- Refine By -->
+          <div class="filter-section">
+            <input
+              type="checkbox"
+              id="toggle-refine"
+              class="filter-toggle"
+              checked
+            />
+            <label for="toggle-refine" class="filter-header">
+              <i class="fas fa-chevron-down"></i>
+              <span>Refine by</span>
+            </label>
+            <div class="filter-content">
+              <div class="android-selected">
+                Android 6.0 <i class="fas fa-close"></i>
+              </div>
+              <div class="clear-all">Clear All</div>
+            </div>
+          </div>
+
+          <!-- Price -->
+          <div class="filter-section">
+            <input
+              type="checkbox"
+              id="toggle-price"
+              class="filter-toggle"
+              checked
+            />
+            <label for="toggle-price" class="filter-header">
+              <i class="fas fa-chevron-down"></i>
+              <span>Price</span>
+            </label>
+            <div class="filter-content">
+              <div class="price-range">
+                <div class="price-slider">
+                  <div class="price-fill"></div>
+                  <div class="price-thumb thumb-min"></div>
+                  <div class="price-thumb thumb-max"></div>
+                </div>
+                <div class="price-display">
+                  Price: <strong>$55 — $5000</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Operating System -->
+          <div class="filter-section">
+            <input
+              type="checkbox"
+              id="toggle-os"
+              class="filter-toggle"
+              checked
+            />
+            <label for="toggle-os" class="filter-header">
+              <span>Operating System</span>
+              <i class="fas fa-chevron-down"></i>
+            </label>
+            <div class="filter-content selected-option">
+              <div class="filter-option" id="android6">Android 6.0</div>
+              <div class="filter-option">Android 5.1</div>
+              <div class="filter-option">Android 5.0</div>
+              <div class="filter-option">Android 4.4</div>
+            </div>
+          </div>
+
+          <!-- Screen Size -->
+          <div class="filter-section selected-option">
+            <input
+              type="checkbox"
+              id="toggle-screen"
+              class="filter-toggle"
+              checked
+            />
+            <label for="toggle-screen" class="filter-header">
+              <span>Screen Size</span>
+              <i class="fas fa-chevron-down"></i>
+            </label>
+            <div class="filter-content">
+              <div class="filter-option">1920x1200</div>
+              <div class="filter-option">1280x800</div>
+              <div class="filter-option">2560x1600</div>
+              <div class="filter-option">1920x1080</div>
+              <div class="filter-option">2048x1536</div>
+              <div class="filter-option">1920x1280</div>
+              <div class="filter-option">1024x600</div>
+            </div>
+          </div>
+
+          <!-- Processor Core -->
+          <div class="filter-section">
+            <input
+              type="checkbox"
+              id="toggle-processor"
+              class="filter-toggle"
+              checked
+            />
+            <label for="toggle-processor" class="filter-header">
+              <span>Processor Core</span>
+              <i class="fas fa-chevron-down"></i>
+            </label>
+            <div class="filter-content">
+              <div class="filter-option with-checkbox">
+                <input type="checkbox" id="quad" />
+                <label for="quad">Quad Core</label>
+              </div>
+              <div class="filter-option with-checkbox">
+                <input type="checkbox" id="octa" />
+                <label for="octa">Octa Core</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tablet Data Capacity -->
+          <div class="filter-section">
+            <input
+              type="checkbox"
+              id="toggle-capacity"
+              class="filter-toggle"
+              checked
+            />
+            <label for="toggle-capacity" class="filter-header">
+              <span>Tablet Data Capacity</span>
+              <i class="fas fa-chevron-down"></i>
+            </label>
+            <div class="filter-content">
+              <div class="filter-option with-checkbox">
+                <input type="checkbox" id="cap16" />
+                <label for="cap16">16GB</label>
+              </div>
+              <div class="filter-option with-checkbox">
+                <input type="checkbox" id="cap32" />
+                <label for="cap32">32GB</label>
+              </div>
+              <div class="filter-option with-checkbox">
+                <input type="checkbox" id="cap64" />
+                <label for="cap64">64GB</label>
+              </div>
+              <div class="filter-option with-checkbox">
+                <input type="checkbox" id="cap128" />
+                <label for="cap128">128GB</label>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <!-- Product Tags -->
+          <div class="product-tags">
+          <div class="tags-title">Product tag</div>
+          <div class="tags-container">
+            <div class="tag">Asus tablet</div>
+            <div class="tag">Windows tablet</div>
+            <div class="tag">Samsung tablet</div>
+            <div class="tag" id="honor">Honor</div>
+          </div>
+        </div>
+      </div>
+      <!-- Products Section -->
+      <section class="products-section">
+        <!-- Mobile Filters Button -->
+     <input type="checkbox" id="mobile-sidebar-toggle" class="mobile-sidebar-toggle">
+  <label for="mobile-sidebar-toggle" class="mobile-filters-btn">
+    <i class="fas fa-filter"></i> Filters
+  </label>
+
+    
+   <div class="mobile-sidebar-container">
+    <div class="mobile-sidebar-content">
+        <!-- Related Categories -->
+      <div class="mobile-filter-section">
+        <input type="checkbox" id="mobile-categories" class="mobile-filter-toggle" checked>
+        <label for="mobile-categories" class="mobile-filter-header">
+          <i class="fas fa-chevron-down"></i>
+          <span>Related Categories</span>
+        </label>
+        <div class="mobile-filter-content">
+          <div class="mobile-filter-option">&lt; Categories</div>
+          <div class="mobile-filter-option" style="font-weight: 600; margin-left: 15px">
+            Tablet & Laptops Accessories
+          </div>
+        </div>
+      </div>
+
+      <!-- Refine By -->
+      <div class="mobile-filter-section">
+        <input type="checkbox" id="mobile-refine" class="mobile-filter-toggle" checked>
+        <label for="mobile-refine" class="mobile-filter-header">
+          <i class="fas fa-chevron-down"></i>
+          <span>Refine by</span>
+        </label>
+        <div class="mobile-filter-content">
+          <div class="mobile-android-selected">
+            Android 6.0 <i class="fas fa-times"></i>
+          </div>
+          <button class="mobile-clear-all">Clear All</button>
+        </div>
+      </div>
+
+      <!-- Price -->
+      <div class="mobile-filter-section">
+        <input type="checkbox" id="mobile-price" class="mobile-filter-toggle" checked>
+        <label for="mobile-price" class="mobile-filter-header">
+          <i class="fas fa-chevron-down"></i>
+          <span>Price</span>
+        </label>
+        <div class="mobile-filter-content">
+          <div class="mobile-price-range">
+            <div class="mobile-price-slider">
+              <div class="mobile-price-fill"></div>
+              <div class="mobile-price-thumb mobile-thumb-min"></div>
+              <div class="mobile-price-thumb mobile-thumb-max"></div>
+            </div>
+            <div class="mobile-price-display">
+              Price: <strong>$55 — $5000</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Operating System -->
+      <div class="mobile-filter-section">
+        <input type="checkbox" id="mobile-os" class="mobile-filter-toggle" checked>
+        <label for="mobile-os" class="mobile-filter-header">
+          <span>Operating System</span>
+          <i class="fas fa-chevron-down"></i>
+        </label>
+        <div class="mobile-filter-content mobile-selected-option">
+          <div class="mobile-filter-option mobile-android6">Android 6.0</div>
+          <div class="mobile-filter-option">Android 5.1</div>
+          <div class="mobile-filter-option">Android 5.0</div>
+          <div class="mobile-filter-option">Android 4.4</div>
+        </div>
+      </div>
+
+      <!-- Screen Size -->
+      <div class="mobile-filter-section mobile-selected-option">
+        <input type="checkbox" id="mobile-screen" class="mobile-filter-toggle" checked>
+        <label for="mobile-screen" class="mobile-filter-header">
+          <span>Screen Size</span>
+          <i class="fas fa-chevron-down"></i>
+        </label>
+        <div class="mobile-filter-content">
+          <div class="mobile-filter-option">1920x1200</div>
+          <div class="mobile-filter-option">1280x800</div>
+          <div class="mobile-filter-option">2560x1600</div>
+          <div class="mobile-filter-option">1920x1080</div>
+          <div class="mobile-filter-option">2048x1536</div>
+          <div class="mobile-filter-option">1920x1280</div>
+          <div class="mobile-filter-option">1024x600</div>
+        </div>
+      </div>
+
+      <!-- Processor Core -->
+      <div class="mobile-filter-section">
+        <input type="checkbox" id="mobile-processor" class="mobile-filter-toggle" checked>
+        <label for="mobile-processor" class="mobile-filter-header">
+          <span>Processor Core</span>
+          <i class="fas fa-chevron-down"></i>
+        </label>
+        <div class="mobile-filter-content">
+          <div class="mobile-filter-option with-checkbox">
+            <input type="checkbox" id="mobile-quad">
+            <label for="mobile-quad">Quad Core</label>
+          </div>
+          <div class="mobile-filter-option with-checkbox">
+            <input type="checkbox" id="mobile-octa">
+            <label for="mobile-octa">Octa Core</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tablet Data Capacity -->
+      <div class="mobile-filter-section">
+        <input type="checkbox" id="mobile-capacity" class="mobile-filter-toggle" checked>
+        <label for="mobile-capacity" class="mobile-filter-header">
+          <span>Tablet Data Capacity</span>
+          <i class="fas fa-chevron-down"></i>
+        </label>
+        <div class="mobile-filter-content">
+          <div class="mobile-filter-option with-checkbox">
+            <input type="checkbox" id="mobile-cap16">
+            <label for="mobile-cap16">16GB</label>
+          </div>
+          <div class="mobile-filter-option with-checkbox">
+            <input type="checkbox" id="mobile-cap32">
+            <label for="mobile-cap32">32GB</label>
+          </div>
+          <div class="mobile-filter-option with-checkbox">
+            <input type="checkbox" id="mobile-cap64">
+            <label for="mobile-cap64">64GB</label>
+          </div>
+          <div class="mobile-filter-option with-checkbox">
+            <input type="checkbox" id="mobile-cap128">
+            <label for="mobile-cap128">128GB</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Tags -->
+      <div class="mobile-product-tags">
+        <div class="mobile-tags-title">Product tag</div>
+        <div class="mobile-tags-container">
+          <div class="mobile-tag">Asus tablet</div>
+          <div class="mobile-tag">Windows tablet</div>
+          <div class="mobile-tag">Samsung tablet</div>
+          <div class="mobile-tag mobile-honor">Honor</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+        <!-- Sort Bar -->
+        <div class="sort-bar">
+          <div class="view-icons">
+            <button class="view-icon active">
+              <i class="fas fa-th"></i>
+            </button>
+            <button class="view-icon">
+              <i class="fas fa-list"></i>
+            </button>
+            <div class="results-count">Showing 1–24 (of 100 items)</div>
+          </div>
+        <div class="sort-controls">
+  <label for="sort-dropdown">Sort by:</label>
+  <select class="sort-select" id="sort-dropdown">
+    <option value="price-low-high">Price: Low to High</option>
+    <option value="price-high-low">Price: High to Low</option>
+    <option value="newest-first">Newest First</option>
+    <option value="best-rating">Best Rating</option>
+    <option value="popularity">Most Popular</option>
+    <option value="name-a-z">Name: A to Z</option>
+  </select>
+</div>
+        </div>
+       <!-- Products Grid -->
+<div class="products-grid">
+  <!-- Product 1 -->
+  <div class="product-card">
+    <div class="discount-badge">-15%</div>
+    <div class="product-image">
+      <img src="images/a.webp" alt="Lenovo P9 Tab 9.6 plus" />
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">Lenovo P9 Tab 9.6 plus</div>
+      <div class="product-price">
+        <span class="price-current">$257.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <div class="product-image">
+      <img src="images/b.webp" alt="Teclast P10 Quad Core 3G" />
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">Teclast P10 Quad Core 3G</div>
+      <div class="product-price">
+        <span class="price-current">$155.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <div class="discount-badge">-20%</div>
+    <div class="product-image">
+      <img src="images/c.webp" alt="BDF 10 INCH Design 3G" />
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+        </div>
+      </div>
+      <div class="product-name">BDF 10 INCH Design 3G</div>
+      <div class="product-price">
+        <span class="price-current">$589.99</span>
+        <span class="price-original">$650.00</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card">
+    <div class="product-image">
+      <img src="images/d.webp" alt="BDF 10 INCH Design OCTA CORE" />
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+        </div>
+      </div>
+      <div class="product-name">BDF 10 INCH Design OCTA CORE</div>
+      <div class="product-price">
+        <span class="price-current">$50.00</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card">
+    <div class="product-image">
+      <img src="images/e.webp" alt="Teclast P89H 7.85 inch Tablet" />
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">Teclast P89H 7.85 inch Tablet</div>
+      <div class="product-price">
+        <span class="price-current">$421.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card">
+    <div class="product-image">
+      <img src="images/f.webp" alt="10.1 inch Android 6.0 32 GB" />
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">10.1 inch Android 6.0 32 GB</div>
+      <div class="product-price">
+        <span class="price-current">$865.50</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="product-card">
+    <div class="discount-badge">-15%</div>
+    <div class="product-image">
+      <div class="product-placeholder">Aoson R102 10.1 inch</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">Aoson R102 10.1 inch</div>
+      <div class="product-price">
+        <span class="price-current">$199.00</span>
+        <span class="price-original">$299.90</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 8 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">FULCOL 10 inch Tablet PC Octa</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+        </div>
+      </div>
+      <div class="product-name">FULCOL 10 inch Tablet PC Octa</div>
+      <div class="product-price">
+        <span class="price-current">$314.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 9 -->
+  <div class="product-card">
+    <div class="new-badge">New</div>
+    <div class="product-image">
+      <div class="product-placeholder">LZ WIN 2018 Android 10 Core</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">LZ WIN 2018 Android 10 Core</div>
+      <div class="product-price">
+        <span class="price-current">$60.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 10 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">BMXC 10 inch Tablet PC 3G 4G</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">BMXC 10 inch Tablet PC 3G 4G</div>
+      <div class="product-price">
+        <span class="price-current">$99.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 11 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">Luxury Golden 10.1 inch</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">Luxury Golden 10.1 inch</div>
+      <div class="product-price">
+        <span class="price-current">$156.00</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 12 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">FULCOL 10 inch Tablet pc</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+        </div>
+      </div>
+      <div class="product-name">FULCOL 10 inch Tablet pc</div>
+      <div class="product-price">
+        <span class="price-current">$1025.00</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 13 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">CARBAYTA 10.1 Android 10</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">CARBAYTA 10.1 Android 10</div>
+      <div class="product-price">
+        <span class="price-current">$329.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 14 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">CONGWEI 10 inch Deca Core</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">CONGWEI 10 inch Deca Core</div>
+      <div class="product-price">
+        <span class="price-current">$85.00</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 15 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">BOBARRY 10 inch Android</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">BOBARRY 10 inch Android</div>
+      <div class="product-price">
+        <span class="price-current">$56.99</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 16 -->
+  <div class="product-card">
+    <div class="product-image">
+      <div class="product-placeholder">Lenovo YOGA BOOK X90L</div>
+    </div>
+    <div class="product-info">
+      <div class="product-rating">
+        <div class="stars">
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i>
+          <i class="fas fa-star star empty"></i>
+        </div>
+      </div>
+      <div class="product-name">Lenovo YOGA BOOK X90L</div>
+      <div class="product-price">
+        <span class="price-current">$136.50</span>
+      </div>
+      <div class="container">
+        <button class="add-to-cart">Add to Cart</button>
+        <div class="wishlist-icon">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- Show More Button -->
+        <div class="show-more">
+          <button class="show-more-btn">
+            <i class="fas fa-spinner"></i> Show more
+          </button>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+          <button disabled>‹</button>
+          <button class="active">1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>...</button>
+          <button>26</button>
+          <button>›</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Recently Viewed Section -->
+    <section class="recently-viewed">
+      <h2 class="section-title">Recently Viewed</h2>
+      <div class="products-grid">
+        <!-- Recently viewed product 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/f.webp" alt="L2500 2019 Android 10 Core" />
+          </div>
+          <div class="product-info">
+            <div class="stars">
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star empty"></i>
+            </div>
+            
+            <div class="product-name">L2500 2019 Android 10 Core</div>
+            
+            <div class="product-price">
+              <span class="price-current">$100.99</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recently viewed product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/i.webp" alt="BMXC 10 inch Tablet PC 3G 4G" />
+          </div>
+          <div class="product-info">
+            <div class="stars">
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star empty"></i>
+            </div>
+            <div class="product-name">BMXC 10 inch Tablet PC 3G 4G</div>
+          
+            <div class="product-price">
+              <span class="price-current">$99.99</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recently viewed product 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/b.webp" alt="Luxury Golden 10.1 inch" />
+          </div>
+          <div class="product-info">
+           
+            <div class="stars">
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star empty"></i>
+            </div>
+            <div class="product-name">Luxury Golden 10.1 inch</div>
+           
+            <div class="product-price">
+              <span class="price-current">$156.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recently viewed product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/e.webp" alt=" FUSION5 10 inch Tablet pc" />
+          </div>
+          <div class="product-info">
+           
+              <div class="stars">
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+              </div>
+            <div class="product-name">FUSION5 10 inch Tablet pc</div>
+           
+           
+            <div class="product-price">
+              <span class="price-current">$1025.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Most Search Keywords -->
+    <section class="keywords-section">
+      <h3 class="keywords-title">Most Search Keywords</h3>
+      <div class="keyword-group">
+        <span class="keyword-label">Laptops:</span>
+        <a href="#">express Laptop</a>
+        <a href="#">Asus Laptop</a>
+        <a href="#">Samsung Laptop</a>
+        <a href="#">Lenovo Laptop</a>
+        <a href="#">Huawei Laptop</a>
+        <a href="#">HP Laptop</a>
+        <a href="#">MSI Laptop</a>
+        <a href="#">Dell Laptop</a>
+        <a href="#">Acer Laptop</a>
+      </div>
+      <div class="keyword-group">
+        <span class="keyword-label">Tablet:</span>
+        <a href="#">Huawei Watchs</a>
+        <a href="#">Titan Watchs</a>
+        <a href="#">Casio Watchs</a>
+        <a href="#">Fastrack Watchs</a>
+        <a href="#">Timex Watchs</a>
+        <a href="#">Fossil Watchs</a>
+        <a href="#">Garmin Watchs</a>
+        <a href="#">Tomtom Watchs</a>
+        <a href="#">Luxury Watchs</a>
+      </div>
+      <div class="keyword-group">
+        <span class="keyword-label">Mobile phone:</span>
+        <a href="#">Chuwi Tablet</a>
+        <a href="#">Huawei Cases</a>
+        <a href="#">Surface Cases</a>
+        <a href="#">Asus Cases</a>
+        <a href="#">Mahattfon Cases</a>
+        <a href="#">Lenovo Cases</a>
+        <a href="#">Panjapret Cases</a>
+        <a href="#">Universal Cases</a>
+        <a href="#">WinONBook Cases</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Contact us</h3>
+          <ul>
+            <li>
+              <i class="fas fa-phone"></i>
+              <a href="tel:+8801234567890" class="contact-info"
+                >(+800) 123 456 7890</a
+              >
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:mail@goodspage.com" class="contact-info"
+                >manager@gmail.com</a
+              >
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <a
+                href="https://maps.google.com/"
+                target="_blank"
+                class="contact-info"
+                >Location store</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies & info</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Policy for Sellers</a></li>
+            <li><a href="#">Policy for Buyers</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Wholesale Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Online delivery</a></li>
+            <li><a href="#">Seller Sign-up</a></li>
+            <li><a href="#">Seller Handbook</a></li>
+            <li><a href="#">Seller Central</a></li>
+            <li><a href="#">Report Seller FAQ's</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>My account</h3>
+          <ul>
+            <li><a href="#">My Orders</a></li>
+            <li><a href="#">Delivery Tool</a></li>
+            <li><a href="#">My Lists</a></li>
+            <li><a href="#">Track</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Exclusive Offers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Subscribe now</h3>
+          <p style="font-size: 14px; color: #ccc; margin-bottom: 15px">
+            Get the latest updates on new products and upcoming sales
+          </p>
+          <div class="newsletter-form">
+            <input
+              type="email"
+              class="newsletter-input"
+              placeholder="Enter your email"
+            />
+            <button class="newsletter-button">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Copyright © 2025 All rights reserved</p>
+        <div class="payment-methods">
+          <div><img src="PAYMENT/Bitcoin.png" alt="Bitcoin" /></div>
+          <div><img src="PAYMENT/COD.png" alt="COD" /></div>
+          <div><img src="PAYMENT/Discover.png" alt="DISCOVER" /></div>
+          <div>
+            <img src="PAYMENT/Maestro.png" alt="Maestro" alt="Maestro" />
+          </div>
+          <div><img src="PAYMENT/Mastercard.png" alt="Mastercard" /></div>
+          <div><img src="PAYMENT/PAYPAL.png" alt="PAYPAL" /></div>
+          <div><img src="PAYMENT/visa.png" alt="VISA" /></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
